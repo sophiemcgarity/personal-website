@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: right
-title: 'Demo'
+title: "Artemis"
 date: 2016-02-20 14:15:00
 categories: development
 tags: JavaScript HTML CSS
-featured_image: '/img/posts/01_bloc-jams-angular-1130x864-2x.png'
-project_link: 'demo link'
-button_icon: 'github'
-button_text: 'Visit Project'
-lead_text: 'A demo project'
+featured_image: "/img/posts/artemis-TEMP.png"
+project_link: "https://artemis-load-testing.github.io/"
+button_icon: "github"
+button_text: "Visit Project"
+lead_text: "Artemis with a TEMP image"
 ---
