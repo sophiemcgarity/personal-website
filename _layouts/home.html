@@ -1,17 +1,9 @@
 {% include header.html %} {% include home-hero.html %}
 
 <main id="portfolio">
-  <div class="container">
+  <div class="container" id="artemis">
     <div class="row">
       <div class="col-md-12">
-        {% if site.section_title != '' %}
-        <h2 class="section-title text-center">{{ site.section_title }}</h2>
-        {% endif %} {% if site.section_subtitle != '' %}
-        <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-        {% endif %}
-
-        <div class="break"></div>
-
         {% for post in paginator.posts %}
         <div class="wow fadeIn">
           {% if post.position == "left" %} {% include content-left.html %} {%
@@ -23,7 +15,7 @@
     </div>
   </div>
 
-  <div class="container other-projects">
+  <div class="container" id="other-projects">
     <h2>Other projects</h2>
     <div class="project-cards">
       <div class="card">

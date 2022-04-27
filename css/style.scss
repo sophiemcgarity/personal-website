@@ -376,7 +376,7 @@ pre > code {
 /*--------------------------------------------------------------
 	7.0 Other Projects
 --------------------------------------------------------------*/
-.other-projects {
+#other-projects {
   padding-top: 10rem;
   padding-bottom: 10rem;
   text-align: center;
@@ -429,7 +429,7 @@ p {
 }
 
 @media (max-width: 400px) {
-  .other-projects {
+  #other-projects {
     margin-top: 1rem;
   }
 
@@ -488,7 +488,6 @@ p {
 }
 
 #portfolio .container {
-  background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
   padding-top: 10em;
@@ -503,6 +502,19 @@ p {
       margin: 2em 0;
     }
   }
+}
+
+#other-projects {
+  background-color: rgb(255, 255, 255);
+}
+
+#artemis {
+  background-color: #2bb391;
+  color: #fff;
+}
+
+#artemis h2::after {
+  display: none;
 }
 
 .hero-color {

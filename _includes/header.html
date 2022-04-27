@@ -46,8 +46,8 @@
   />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/animate.min.css" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="{{ site.url }}/css/animate.min.css" />
+  <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
 </head>
 <body
   class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}"
