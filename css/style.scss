@@ -16,7 +16,6 @@
 @import "../_sass/bootstrap";
 @import "../_sass/mixins";
 
-
 $primary: #0a0a0a;
 $secondary: #ff7b7b;
 
@@ -727,4 +726,10 @@ p {
   .hero-content p {
     margin: 1em 0 4em 0;
   }
+}
+
+.main {
+  background-color: white;
+  border-left: solid 1px #cedfea;
+  border-right: solid 1px #cedfea;
 }
