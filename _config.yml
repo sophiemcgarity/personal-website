@@ -94,7 +94,7 @@ pagination:
 # enable_contact: false
 
 #### Phantom Navigation menu
-enable_nav: true
-nav_item:
-  - { url: "/", text: "Home" }
-  - { url: "/#portfolio", text: "Projects" }
+enable_nav: false
+# nav_item:
+#   - { url: "/", text: "Home" }
+#   - { url: "/#portfolio", text: "Projects" }
