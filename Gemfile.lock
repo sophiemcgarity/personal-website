@@ -288,6 +288,7 @@ DEPENDENCIES
   github-pages
   jekyll-paginate-v2 (~> 2.0)
   kramdown-parser-gfm
+  nokogiri (>= 1.13.4)
   phantom!
   rake (~> 12.3)
 
