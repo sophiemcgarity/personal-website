@@ -76,7 +76,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   nokogiri (>= 1.13.4)
   phantom!
-  rake
+  rake (~> 12.3)
 
 BUNDLED WITH
    2.3.12
