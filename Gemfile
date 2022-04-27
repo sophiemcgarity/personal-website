@@ -7,7 +7,6 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "nokogiri", ">= 1.13.4"
 gem 'github-pages'
 gem 'jekyll'
-gem 'phantom'
 
 group :jekyll_plugins do
   gem "jekyll-paginate-v2"
