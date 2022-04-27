@@ -390,7 +390,7 @@ pre > code {
 }
 
 .project-cards .card {
-  width: 40rem;
+  width: 35rem;
   border-radius: 0.8em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -411,7 +411,21 @@ p {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1550px) {
+  .project-cards {
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-cards .card {
+    padding-top: 1em;
+    flex: 35%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 750px) {
   .project-cards {
     min-width: 100%;
     padding-top: 6rem;
@@ -421,10 +435,9 @@ p {
     align-items: center;
     justify-content: center;
   }
-
   .project-cards .card {
-    max-width: 70%;
-    padding-top: 1em;
+    width: 80%;
+    margin-bottom: 3em;
   }
 }
 
@@ -444,7 +457,30 @@ p {
 }
 
 /*--------------------------------------------------------------
-	8.0 Profile Picture
+	8.0 Artemis
+--------------------------------------------------------------*/
+@media (max-width: 1400px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .artemis img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1250px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .artemis img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/*--------------------------------------------------------------
+	9.0 Profile Picture
 --------------------------------------------------------------*/
 .profile-picture {
   border-radius: 6px;
