@@ -513,15 +513,10 @@ p {
   color: #fff;
 }
 
-#artemis h2::after {
-  display: none;
-}
-
 .hero-color {
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
-  // margin-top: 10em;
 
   @include bp-xsmall {
     margin-top: 2em;
