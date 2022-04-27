@@ -16,7 +16,7 @@
 title: "Hello. I'm Sophie McGarity."
 email: "sophiemcgarity7@gmail.com"
 description: "I am a software engineer, located in Seattle, Washington, with multiple years of experience in JavaScript, Golang, Ruby, and several frameworks."
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sophiemcgarity.github.io/personal-website/" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: "sophiemcgarity"
 resume_link: "Resume"
