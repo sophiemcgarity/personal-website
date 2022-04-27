@@ -4,13 +4,12 @@
   <div class="container" id="artemis">
     <div class="row">
       <div class="col-md-12">
-        {% for post in paginator.posts %}
+        <!-- {% for post in paginator.posts %} -->
         <div class="wow fadeIn">
-          {% if post.position == "left" %} {% include content-left.html %} {%
-          endif %} {% if post.position == "right" %} {% include
-          content-right.html %} {% endif %}
+          <!-- {% if post.position == "left" %} {% include content-left.html %} {% endif %}  -->
+          {% if post.position == "right" %} {% include content-right.html %} {% endif %}
         </div>
-        {% endfor %} {% include pagination.html %}
+        <!-- {% endfor %} {% include pagination.html %} -->
       </div>
     </div>
   </div>
