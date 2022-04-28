@@ -2,6 +2,17 @@
 <head>
   <!-- Meta -->
   <meta charset="utf-8" />
+  <meta property="og:title" content="Sophie McGarity" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta
+    property="og:image:url"
+    content="{{ site.url }}/img/artemis_react_dash.png"
+  />
+  <meta
+    property="og:description"
+    content="I am a software engineer, located in Seattle, Washington, with multiple years of experience in JavaScript, Golang, Ruby, and several frameworks."
+  />
   <title>
     {% if page.title %}{{ page.title }} - {{ site.title }}{% elsif post.title
     %}{{ post.title }} - {{ site.title }}{% else %}{{ site.title }} - {{
