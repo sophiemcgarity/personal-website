@@ -24,7 +24,7 @@ linkedin: "sophie-mcgarity"
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
+theme: phantom
 plugins:
   - jekyll-paginate-v2
 
